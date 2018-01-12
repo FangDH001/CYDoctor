@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
     s.dependency 'Masonry', '~> 1.1.0'
     s.dependency 'FMDB', '~> 2.7.2'
     s.dependency 'IQKeyboardManager', '~> 3.3.7'
+    s.dependency 'BlocksKit', '~> 2.2.5'
     s.dependency 'ZYQAssetPickerController', '~> 1.2.0'
     s.dependency 'SVProgressHUD', '~> 2.1.2'
 
