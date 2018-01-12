@@ -11,7 +11,7 @@
 
 @interface CYDoctorApi : NSObject
 
-+ (BOOL)registerWithPhoneNum:(NSString*)phoneNum doctorName:(NSString*)dName;
++ (BOOL)loginWithAccount:(NSString*)account mobile:(NSString*)mobile;
 
 + (void)pushToNavigation:(UINavigationController*)nav;
 
