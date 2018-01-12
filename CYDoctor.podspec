@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 
     s.source       = { :git => "http://git.ciyun.cn/fangdonghai/CYDoctor.git", :tag => "#{s.version}" }
 
-    s.resources     = "CYDoctor/*.{bundle}", "CYDoctor/**/*.{bundle}", "CYDoctor/*", "*"
-    s.vendored_frameworks = "CYDoctor.framework"
-    s.frameworks = 'UIKit','Security','CoreLocation','SystemConfiguration','CoreTelephony','Foundation','CoreFoundation','JavaScriptCore','CoreGraphics'
+    s.resources     = "CYDoctor/CYDoctor.bundle"
+    s.vendored_frameworks = "CYDoctor/CYDoctor.framework"
+    s.frameworks = 'UIKit','Foundation','CoreFoundation'
 
     s.dependency 'AFNetworking', '~> 3.1.0'
     s.dependency 'JSONModel', '~> 1.1.0'
