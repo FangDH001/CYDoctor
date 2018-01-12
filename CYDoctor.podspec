@@ -22,13 +22,13 @@ Pod::Spec.new do |s|
     s.frameworks = 'UIKit','Foundation','CoreFoundation'
 
     s.dependency 'AFNetworking', '~> 3.1.0'
-    s.dependency 'JSONModel', '~> 1.1.0'
-    s.dependency 'SDWebImage', '~> 3.7.3'
-    s.dependency 'MJRefresh', '~> 2.2.0'
-    s.dependency 'Masonry', '~> 0.6.1'
-    s.dependency 'FMDB', '~> 2.5'
-    s.dependency 'IQKeyboardManager', '~> 4.0.9'
-    s.dependency 'ZYQAssetPickerController', '~> 1.0.0'
-    s.dependency 'SVProgressHUD', '~> 1.1.3'
+    s.dependency 'JSONModel', '~> 1.7.0'
+    s.dependency 'SDWebImage', '~> 4.2.3'
+    s.dependency 'MJRefresh', '~> 3.1.15.1'
+    s.dependency 'Masonry', '~> 1.1.0'
+    s.dependency 'FMDB', '~> 2.7.2'
+    s.dependency 'IQKeyboardManager', '~> 3.3.7'
+    s.dependency 'ZYQAssetPickerController', '~> 1.2.0'
+    s.dependency 'SVProgressHUD', '~> 2.1.2'
 
 end
