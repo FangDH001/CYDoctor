@@ -19,18 +19,16 @@ Pod::Spec.new do |s|
 
     s.resources     = "CYDoctor/*.{bundle}", "CYDoctor/**/*.{bundle}", "CYDoctor/*", "*"
     s.vendored_frameworks = "CYDoctor.framework"
-    s.framework  = "UIKit","Foundation"
+    s.frameworks = 'UIKit','Security','CoreLocation','SystemConfiguration','CoreTelephony','Foundation','CoreFoundation','JavaScriptCore','CoreGraphics'
 
-    s.ios.deployment_target  = '8.0'
-    s.dependency 'AFNetworking'
-    s.dependency 'IQKeyboardManager'
-    s.dependency 'JSONModel'
-    s.dependency 'Masonry'
-    s.dependency 'MJRefresh'
-    s.dependency 'SDWebImage'
-    s.dependency 'SVProgressHUD'
-    s.dependency 'FMDB'
-    s.dependency 'BlocksKit'
-    s.dependency 'ZYQAssetPickerController'
+    s.dependency 'AFNetworking', '~> 3.1.0'
+    s.dependency 'JSONModel', '~> 1.1.0'
+    s.dependency 'SDWebImage', '~> 3.7.3'
+    s.dependency 'MJRefresh', '~> 2.2.0'
+    s.dependency 'Masonry', '~> 0.6.1'
+    s.dependency 'FMDB', '~> 2.5'
+    s.dependency 'IQKeyboardManager', '~> 4.0.9'
+    s.dependency 'ZYQAssetPickerController', '~> 1.0.0'
+    s.dependency 'SVProgressHUD', '~> 1.1.3'
 
 end
