@@ -17,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [CYDoctorApi loginWithAccount:@"ceshicy" mobile:@"13234323453"];
+    [CYDoctorApi loginWithAccount:@"ceshicy" mobile:@"13234323453" success:^{
+        NSLog(@"登录成功......");
+    } fail:^{
+        NSLog(@"登录失败......");
+    }];
 }
 
 - (IBAction)redirectAction:(UIButton *)sender {

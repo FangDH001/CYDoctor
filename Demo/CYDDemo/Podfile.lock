@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CYDoctor (0.0.2):
+  - CYDoctor (0.0.3):
     - AFNetworking (~> 3.1.0)
     - IQKeyboardManager (~> 3.3.7)
     - JSONModel (~> 1.7.0)
@@ -38,7 +38,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CYDoctor: ed60eb82c73f78b4abf06c1c66d53bb088d94007
+  CYDoctor: 71844395ffa36546a8c27a3efc12c8b55427edc6
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
