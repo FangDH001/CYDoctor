@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.platform = :ios, '8.0'
     s.name         = "CYDoctor"
-    s.version      = "1.0.7"
+    s.version      = "0.0.1"
     s.summary      = "慈云医生APP 简版SDK"
 
     s.description  = <<-DESC
