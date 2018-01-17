@@ -47,7 +47,9 @@
 #文件直接引入方式（二选一）
 
     将下载的CYDoctor.framework以及CYDoctor.bundle/IQKeyboardManager.bundle/MJRefresh.bundle/SVProgressHUD.bundle/ZYQAssetPicker.Bundle文件引入到工程中。然后按后面的【项目设置】设置完毕即可运行。
-    如果引入的文件与原有的项目文件有冲突，请自行删改原项目文件，以下载的CYDoctor包中的文件为准。
+    如果引入的文件与原有的项目文件有冲突，请自行删改原项目文件，以下载的CYDoctor包中的文件为准。
+    
+    
     
     
 #项目设置
