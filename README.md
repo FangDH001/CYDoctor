@@ -52,7 +52,8 @@
     
     
     
-#项目设置
+项目设置
+------------------
 
     ##1.因为慈云医生APP可能会访问http请求，所以需要在项目Info.plist中添加以下键值对：
     <key>NSAppTransportSecurity</key>
@@ -67,13 +68,16 @@
     相册权限： Privacy - Photo Library Usage Description 是否允许此App访问你的媒体资料库？
 
 
-#问题列表
+问题列表
+------------------
 
     ##1.如果引入SDK后，报duplicate symbol异常，请确认是否当前项目原有文件有相同的定义，并修改原有项目定义或删改第三方库版本以达到兼容SDK的目标。
 
     ##2.如果集成SDK后编译不通过，可能是有Category执行失败，在当前项目target的Build Settings中，找到Other Linker Flags，添加-ObjC和-all_load参数，引入所有库文件即可。
 
     ##3.如果添加-all_load后，引入了更多编译错误，请尝试使用-force_load $(PROJECT_DIR)/xxx/.../CYDoctor.framework  后面为CYDoctor.framewoke在项目中的存放路径 
+    
+    ##4.如果搜索不到该pod库，Unable to find a specification for 'CYDoctor'，则需要执行pod repo update来更新本地配置库信息。这个命令执行可能很慢，如果网络不好可以指定更新pod repo update /Users/<user>/.cocoapods/repos/master/Specs/CYDoctor，或者cd到目录下手动增加库信息。
 
 
 
