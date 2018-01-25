@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [CYDoctorApi setEnvironment:CYDEnvironment_Develop];
     [CYDoctorApi loginWithAccount:@"ceshicy" mobile:@"13234323453"];
 }
 

@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [CYDoctorApi loginWithAccount:@"ceshicy" mobile:@"13234323453" success:^{
+    [CYDoctorApi loginWithAccount:@"usercy" mobile:@"13600990909" success:^{
         NSLog(@"登录成功......");
     } fail:^{
         NSLog(@"登录失败......");

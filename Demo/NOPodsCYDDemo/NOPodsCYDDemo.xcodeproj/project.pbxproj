@@ -153,6 +153,7 @@
 				TargetAttributes = {
 					7D03F7FA200C8D05004594CE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CXACXM8Y8A;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -322,7 +323,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huafeng Liu (YKR9SMF4G2)";
+				DEVELOPMENT_TEAM = CXACXM8Y8A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NOPodsCYDDemo",
@@ -336,7 +338,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciyun.NOPodsCYDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "5403c089-8ca3-41b8-b981-76529162c2d0";
+				PROVISIONING_PROFILE_SPECIFIER = WildcardDev;
 			};
 			name = Debug;
 		};
@@ -344,7 +347,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Huafeng Liu (YKR9SMF4G2)";
+				DEVELOPMENT_TEAM = CXACXM8Y8A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/NOPodsCYDDemo",
@@ -358,7 +362,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciyun.NOPodsCYDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "5403c089-8ca3-41b8-b981-76529162c2d0";
+				PROVISIONING_PROFILE_SPECIFIER = WildcardDev;
 			};
 			name = Release;
 		};

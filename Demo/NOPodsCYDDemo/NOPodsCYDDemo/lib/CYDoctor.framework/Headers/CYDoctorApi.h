@@ -12,8 +12,20 @@
 typedef void(^CYDLoginSuccessBlock)();
 typedef void(^CYDLoginFailBlock)();
 
+typedef enum : NSUInteger {
+    CYDEnvironment_Develop,         // 测试环境
+    CYDEnvironment_Production,      // 生产环境
+} CYDEnvironment;
+
 @interface CYDoctorApi : NSObject
 
+
+/**
+ 设置运行环境 /////////注意：该方法非必需执行。如果【未执行】该方法设置，则【默认为生产环境】。执行了则按传入的参数来判断////////
+
+ @param env CYDEnvironment 不能为空
+ */
++ (void)setEnvironment:(CYDEnvironment)env;
 
 /**
  根据医生账号和手机号，登录慈云医生APP
