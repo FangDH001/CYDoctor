@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [CYDoctorApi setEnvironment:CYDEnvironment_Develop];
     [CYDoctorApi loginWithAccount:@"usercy" mobile:@"13600990909" success:^{
         NSLog(@"登录成功......");
     } fail:^{

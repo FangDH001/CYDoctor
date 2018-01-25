@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CYDoctor (0.0.3):
+  - CYDoctor (0.0.5):
     - AFNetworking (~> 3.1.0)
     - IQKeyboardManager (~> 3.3.7)
     - JSONModel (~> 1.7.0)
@@ -26,7 +26,7 @@ PODS:
   - IQKeyboardManager (3.3.7)
   - JSONModel (1.7.0)
   - Masonry (1.1.0)
-  - MJRefresh (3.1.15.1)
+  - MJRefresh (3.1.15.3)
   - SDWebImage (4.2.3):
     - SDWebImage/Core (= 4.2.3)
   - SDWebImage/Core (4.2.3)
@@ -34,19 +34,19 @@ PODS:
   - ZYQAssetPickerController (1.2.0)
 
 DEPENDENCIES:
-  - CYDoctor
+  - CYDoctor (~> 0.0.5)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CYDoctor: 71844395ffa36546a8c27a3efc12c8b55427edc6
+  CYDoctor: b6cec57b84ba713111ae5a3fa7537632cd0573c4
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   ZYQAssetPickerController: dc692a6fb421c0dc0efcabd43eb260cfb073f7fd
 
-PODFILE CHECKSUM: c48939e09f878180d964d21ef980532def4f7ac1
+PODFILE CHECKSUM: 6969c060b5c5c72d659e39c286cb2f95e6e8a496
 
 COCOAPODS: 1.4.0.beta.2
